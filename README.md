@@ -5,7 +5,7 @@
 - [x] 标题使用黑体并居中加粗，标题与正文间隔1em
 - [x] 其他多级标题使用黑体
 - [x] 正文使用宋体并首行缩进2字符
-- [x] ctrl+q的Quote改为居中黑体，可用作题注
+- [x] ctrl+shift+q的blockquote改为居中黑体，可用作题注
 
 ## 使用
 ![](http://p6g1c83vx.bkt.clouddn.com//18-9-28/48183584.jpg)

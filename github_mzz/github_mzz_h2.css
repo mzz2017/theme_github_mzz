@@ -1,3 +1,7 @@
+h2.md-focus:before {
+    background: rgba(0, 0, 0, .1);
+}
+
 h2:nth-of-type(1):before {
     content: "一、"
 }

@@ -2,6 +2,34 @@ blockquote p span {
     display: inline !important;
 }
 
+blockquote[mdtype='blockquote'] p:not(.md-focus-p) {
+    border: 1px solid #eef1f4;
+}
+
+.md-focus {
+    border: 1px dashed #dfe2e5;
+}
+
+blockquote .md-focus {
+    border: none;
+}
+
+.md-line:not(.md-focus) {
+    padding: 1px;
+}
+
+blockquote .md-focus-p {
+    border: 1px solid #d5d8db;
+}
+
+blockquote > p:not(:first-child):before {
+    content: "请再次敲入回车"
+}
+
+blockquote[mdtype='blockquote'] > .md-focus-p:first-child:before {
+    background: rgba(0, 0, 0, .1);
+}
+
 blockquote:nth-of-type(1) > p:first-child:before {
     content: "图1 "
 }

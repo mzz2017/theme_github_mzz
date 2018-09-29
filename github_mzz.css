@@ -24,14 +24,21 @@
     src: local('SimHei Regular'), url('./github_mzz/SimHei.woff') format('woff')
 }
 
+@font-face {
+    font-family: 'SimFang';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SimFang Regular'), url('./github_mzz/SimFang.woff') format('woff')
+}
+
 html {
-    font-size: 16px;
+    font-size: 12pt;
 }
 
 body {
     font-family: "SimSun", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(51, 51, 51);
-    line-height: 1.6;
+    line-height: 1.45;
 }
 
 #write {
@@ -118,7 +125,7 @@ h6 code {
 
 h1 {
     padding-bottom: .3em;
-    font-size: 2.25em;
+    font-size: 22pt;
     line-height: 1.2;
     margin-bottom: 1em;
     text-align: center;
@@ -128,27 +135,29 @@ h1 {
 
 h2 {
     padding-bottom: .3em;
-    font-size: 1.75em;
+    font-size: 18pt;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 16pt;
     line-height: 1.43;
 }
 
 h4 {
-    font-size: 1.25em;
+    font-size: 14pt;
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 13pt;
+    font-family: "SimFang";
 }
 
 h6 {
     font-size: 1em;
-    color: #777;
+    /*color: #777;*/
+    font-family: "SimFang";
 }
 
 p,
@@ -164,7 +173,7 @@ ol {
     margin-left: 2em;
 }
 
-li, .md-line {
+#write .md-list-item .md-line, #write .md-inline-math, #write ol li {
     text-indent: 0;
 }
 
@@ -250,10 +259,6 @@ blockquote {
     /*color: #777777;*/
     text-align: center;
     font-family: "SimHei";
-}
-
-blockquote .md-focus-p {
-    border: 1px solid #dfe2e5;
 }
 
 blockquote blockquote {

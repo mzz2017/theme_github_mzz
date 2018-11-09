@@ -52,7 +52,7 @@ body {
 }
 
 
-.md-toc-content{
+.md-toc-content, table, ul{
     text-indent: 0;
 }
 
